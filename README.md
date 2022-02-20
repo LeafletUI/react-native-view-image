@@ -8,9 +8,9 @@ Official Repository for React-native selected image build
 - 🔥Video on the slide
 - 🔥Uses VirtualizedList to optimize image loading and rendering
 
-<p align="center">
-  <img src="https://github.com/jobtoday/react-native-image-viewing/blob/master/demo.gif?raw=true" height="480" />
-</p>
+### View demo here 
+
+https://youtu.be/lTKgSrqjMZ4
 
 ## Installation
 
@@ -22,4 +22,30 @@ or
 
 ```bash
 npm i @leafletui/react-native-view-image
+```
+
+```js
+import ImageView from "@leafletui/react-native-view-image";
+
+const ViewImage = () => {
+
+  const [open, setOpen] = React.useState(false);
+
+const openImages = [
+  { 
+    uri: "https://images.unsplash.com/photo-1601824772624-9375c6f20701?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fHNwbGFzaHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60"
+  }
+  
+  ];
+
+return (
+<ImageView
+  images={openImages}
+  imageIndex={0}
+  visible={open}
+  onRequestClose={() => setOpen(false)}
+  navigateToVideo={navigateToVideo}
+/>
+  )
+};
 ```
