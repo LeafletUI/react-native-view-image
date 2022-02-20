@@ -1,0 +1,46 @@
+{
+  "name": "@leafletui/react-native-view-image",
+  "version": "0.0.3",
+  "description": "React Native modal component for viewing images as a sliding gallery",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeafletUI/react-native-view-image.git"
+  },
+  "keywords": [
+    "react",
+    "react-native",
+    "image",
+    "gallery",
+    "image-gallery",
+    "image-viewer"
+  ],
+  "scripts": {
+    "build": "tsc -p .",
+    "postversion": "yarn build"
+  },
+  "peerDependencies": {
+    "react": ">=16.11.0",
+    "react-native": ">=0.61.3"
+  },
+  "files": [
+    "dist",
+    "readme.md",
+    "package.json"
+  ],
+  "author": "LeafletUI, Anayo Oleru <anayo_oleru@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LeafletUI/react-native-view-image/issues"
+  },
+  "homepage": "https://github.com/LeafletUI/react-native-view-image#readme",
+  "devDependencies": {
+    "@babel/runtime": "7.7.4",
+    "@types/react": "16.9.13",
+    "@types/react-native": "0.60.23",
+    "react": "16.12.0",
+    "react-native": "0.61.5",
+    "typescript": "3.7.2"
+  }
+}
