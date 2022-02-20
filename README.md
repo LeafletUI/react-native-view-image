@@ -1,5 +1,7 @@
 # React Native View Image
-Official Repository for React-native selected image build
+React Native Image and Video Viewing component Library for IOS and Android. With this component, you can view multiple images and videos and slide through them. 
+
+Support for Expo managed, Expo bare, and React Native CLI.
 
 - 🔥Pinch zoom for both iOS and Android
 - 🔥Double tap to zoom for both iOS and Android
